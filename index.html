@@ -1,0 +1,111 @@
+<!-- Validated at: https://validator.w3.org/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Guitar World</title>
+<!-- Bootstrap is linked here so the Add to Cart button looks official -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<!-- normalize so page is displayed consistently across all browsers -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<p>Account Sign in</p>
+		<h1>Guitar World</h1>
+		<h2>The guitar experts!</h2>
+			<input type="text" name="search" id="search" placeholder="Search for...">
+	<nav>
+		<!-- Store Navigation -->
+		<ul>
+			<li>Shop</li>
+			<li>Deals</li>
+			<li>Gift Cards</li>
+			<li>Find a Store</li>
+			<li>Customer Support</li>
+			<li>Categories</li>
+		</ul>
+	</nav>
+</header>
+		<!-- The main content of the page -->
+	<main>
+		<h1>DEAL OF THE WEEK!</h1>
+		<img src="css/4.5stars.png" alt="guitar rating" id="rating">
+		<h2>2016 Gibson USA SG Special Faded Traditional Electric Guitar - Worn Brown</h2>
+		<img src="css/Front.jpg" alt="Guitar Frontal View" class="left">
+		<img src="css/Back.jpg" alt="Guitar Frontal View" class="right">
+	</main>
+
+<!-- Added Features and Technical stats of the product to make page seem more "realistic" -->
+	<section>
+		<h2>Guitar Features:</h2>
+			<p>-Lightweight</p>
+			<p>-Sturdy</p>
+			<p>-Easy to tune</p>
+			<p>-Custom finish</p>
+
+		<h2>Technical Specifications:</h2>
+			<p>Brand - Gibson</p>
+			<p>Condition - Brand NEW</p>
+			<p>Color - Worn Brown</p>
+			<p>Model - DCR CRZ1547YUIO</p>
+			<p>Dimensions (LxWxH) 5x15x45 inches</p>
+
+<!-- wanted the text to stand out in red bold here, so used a class to be able to target this sentence specifically -->
+		<p id="OnSale">On sale for 799.99 (reg 999.99) until May 3rd, 2017! ORDER NOW!</p>
+
+
+<!-- Add to cart form -->
+		<form>
+			<select class="custom-select form-control-sm">
+				<option selected>Quantity</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+			</select>
+			<button type="submit" class="btn btn-success" id="add">Add to Cart</button>
+		</form>
+		</section>
+
+	<article>
+		<h2>Customers who bought this product also liked:</h2>
+
+			<p>ESP LTD Electric Guitar EC-10 Black - ON SALE 459.99!!</p>
+				<img src="css/blackguitar.jpg" alt="Guitar Image">
+
+			<p>ESP LTD Electric Guitar M-10 Black - 529.99</p>
+				<img src="css/blackguitar2.jpg" alt="Different Guitar Image">
+
+			<p>Behringer Powered Studio Monitor Pair MS-40 - 239.99</p>
+				<img src="css/speaker.jpg" alt="Speakers">
+	</article>
+
+<!-- Mock customer reviews, again to make the page seem "real" -->
+	<aside>
+		<h2>Product Reviews:</h2>
+			<h3>John Smith</h3>
+			<p>March 23, 2016 - Moncton, NB</p>
+			<img src="css/fourstar.png" alt="4 stars">
+			<p>Great quality guitar - lightweight and easy to tune.</p>
+
+			<h3>Jane Doe</h3>
+			<p>September 8, 2016 - Halifax, NS</p>
+			<img src="css/rating.jpg" alt="5 stars">
+			<p>Satisfied with this purchase, picked this up for my son a month ago and he seems quite happy with it.</p>
+
+			<h3>John Doe</h3>
+			<p>Jan 5, 2017 - Toronto, ON</p>
+			<img src="css/rating.jpg" alt="5 stars">
+			<p>Would recommend this guitar to anyone who is interested in learning how to play.</p>
+	</aside>
+
+	<footer>
+		<p>© Guitar World Inc.</p>
+	</footer>
+
+</body>
+</html>
